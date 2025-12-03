@@ -1,11 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 #root {
   width: 100%;
   max-width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0px;
 }
 
 .body {
   width: 100%;
   max-width: 100%;
+  margin: 0px;
 }
 
 a {
@@ -20,10 +28,83 @@ a {
   background: white;
 }
 
-.jfooter-wrapper {
+.footer-wrapper {
   width: 100%;
-  height: 200px;
+  margin: 0px 80px 20px 80px;
+  padding: 32px 20px;
   color: white;
   background-color: #088cff;
-  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer-top-box {
+  width: calc(100% - 32px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 102px;
+  height: 26px;
+}
+
+.footer-menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer-menu-first-wrapper,
+.footer-menu-second-wrapper,
+.footer-menu-third-wrapper {
+  width: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-menu-fourth-wrapper {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-menu-font-wrapper {
+  font-family: "Pretendard";
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-align: start;
+  line-height: 1.7;
+}
+
+.footer-bottom-box {
+  width: calc(100% - 32px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header-wrapper {
+  width: 100%;
+  padding: 0px 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.header-logo {
+  width: 132px;
 }

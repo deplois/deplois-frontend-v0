@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import FooterDesktop from "./widgets/desktop/footer";
+import HeaderDesktop from "./widgets/desktop/header";
 
 function App() {
   /* 모바일 */
@@ -26,6 +27,8 @@ function App() {
         path="/"
         element={
           <div className="app-container">
+            {screenSize === "mobile" ? <HeaderDesktop /> : <HeaderDesktop />}
+
             {screenSize === "mobile" ? <FooterDesktop /> : <FooterDesktop />}
           </div>
         }
