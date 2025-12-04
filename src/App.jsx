@@ -4,6 +4,7 @@ import "./App.css";
 
 import FooterDesktop from "./widgets/desktop/footer";
 import HeaderDesktop from "./widgets/desktop/header";
+import MainDesktop from "./widgets/desktop/main";
 
 function App() {
   /* 모바일 */
@@ -28,7 +29,7 @@ function App() {
         element={
           <div className="app-container">
             {screenSize === "mobile" ? <HeaderDesktop /> : <HeaderDesktop />}
-
+            {screenSize === "mobile" ? <MainDesktop /> : <MainDesktop />}
             {screenSize === "mobile" ? <FooterDesktop /> : <FooterDesktop />}
           </div>
         }

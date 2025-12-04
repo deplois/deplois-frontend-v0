@@ -1,3 +1,9 @@
+:root {
+  --deplois-blue: #0088ff;
+  --luna-purple: #8459ff;
+  --divider-grey: #e5e5e5;
+}
+
 @font-face {
   font-family: "Pretendard";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2")
@@ -71,7 +77,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2")
     format("woff2");
   font-weight: 100;
@@ -79,7 +85,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2")
     format("woff2");
   font-weight: 200;
@@ -87,7 +93,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2")
     format("woff2");
   font-weight: 300;
@@ -95,7 +101,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2")
     format("woff2");
   font-weight: 400;
@@ -103,7 +109,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2")
     format("woff2");
   font-weight: 500;
@@ -111,7 +117,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2")
     format("woff2");
   font-weight: 600;
@@ -119,7 +125,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2")
     format("woff2");
   font-weight: 700;
@@ -127,7 +133,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2")
     format("woff2");
   font-weight: 800;
@@ -135,7 +141,7 @@
 }
 
 @font-face {
-  font-family: "Paperozi";
+  font-family: "Paperlogy";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2")
     format("woff2");
   font-weight: 900;
